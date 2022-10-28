@@ -13,7 +13,7 @@ public class LinearSearch {
                 System.out.println(searchValue + " was found at " + counter);
             }
         }
-        if (found == false){
+        if (!found){
             System.out.println(searchValue + " not found!");
         }
     }
